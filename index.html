@@ -1,0 +1,517 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Ubuntu:700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+</head>
+<body>
+<div class="logInForm">
+    <div class="registration_form_wrapper">
+        <span class="close-form">✖</span>
+        <form action="/registration" method="post" class="form">
+            <label>
+                <p class="login-text" >Ваш логин</p>
+                <input type="text" name="login">
+            </label>
+            <label>
+                <p class="login-text" >Введите пароль</p>
+                <input type="password" name="password">
+            </label>
+            <input type="submit">
+        </form>
+    </div>
+</div>
+<div class="leave-reference-form">
+    <div class="reference_form_wrapper">
+        <span class="close-form">✖</span>
+        <form action="/leave_reference" method="post" class="form">
+            <label>
+                <p class="reference-title" >Ваше имя</p>
+                <input type="text" name="namee">
+            </label>
+            <label>
+                <p class="reference-title">
+                    Ваш email
+                </p>
+                <input type="email" name="email">
+            </label>
+            <label>
+                <p class="reference-title">
+                    Ваш номер телефона
+                </p>
+                <input type="text" name="phone-number">
+            </label>
+            <input type="submit">
+        </form>
+    </div>
+</div>
+<div class="small_devices_menu">
+    <span class="close">✖</span>
+    <ul>
+        <div class="small_device_menu-title">MENU</div>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Банки партнеры</a></li>
+        <li><a href="#">Новости</a></li>
+        <li><a href="#">Контакты</a></li>
+        <li><a href="#">Выбери свой город</a></li>
+    </ul>
+</div>
+<header class="header">
+    <div class="container">
+        <div class="header__top">
+            <div class="logo">
+                <img src="media/logo.png" alt="">
+            </div>
+            <div class="burger">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">банки партнеры </a></li>
+                    <li><a href="#">Новости</a></li>
+                    <li><a href="#">Контакты</a></li>
+                    <li class="location"><a href="#">Санкт-Петербург</a></li>
+                </ul>
+            </nav>
+            <div class="registration-button">
+                <p>Вход / Регистрация</p>
+            </div>
+        </div>
+        <div class="header__content">
+            <div class="header__content-title">
+                Теперь <span class="redcolored">вы выбираете</span> банки,
+                а не они вас!
+            </div>
+            <div class="header__content-text">
+                Вам нужно открыть расчетный счет для юридического лица, но вы не знаете, в какой банк обратиться?
+            </div>
+            <div class="default-btn">
+                    <span class="default-btn-text">
+                        Открыть счет бесплатно
+                    </span>
+            </div>
+
+        </div>
+        <div class="header__between">
+            <div class="between-item">
+                <img src="media/between1.jpg" alt="">
+                <div class="between-textbox">
+                    <div class="between-textbox-title">
+                        Быстрое оформление
+                    </div>
+                    <div class="between-textbox-text">
+                        Бесплатно не значит долго.
+                        Вся процедуря займет не
+                        более 10 минут
+                    </div>
+                </div>
+            </div>
+            <div class="between-item">
+                <img src="media/between2.jpg" alt="">
+                <div class="between-textbox">
+                    <div class="between-textbox-title">
+                        Выбор банков
+                    </div>
+                    <div class="between-textbox-text">
+                        Теперь вы выбираете банки, а не они вас. Огромный выбор банков в вашем городе.
+                    </div>
+                </div>
+            </div>
+            <div class="between-item">
+                <img src="media/between3.jpg" alt="">
+                <div class="between-textbox">
+                    <div class="between-textbox-title">
+                        Автоматизация
+                    </div>
+                    <div class="between-textbox-text">
+                        Банки получают ваши заявки автоматически и обрабатывают запрос в самый короткий срок
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="offer">
+        <div class="container">
+            <div class="offer-wrapper">
+                <div class="offer__bg-img">
+                    <img src="media/zero.png" alt="">
+                </div>
+                <div class="offer__textbox">
+                    <div class="offer__textbox-title-1">
+                        Рублей
+                    </div>
+                    <div class="offer__textbox-title-2">
+                        за открытие расчетного счета
+                    </div>
+                    <div class="offer__textbox-paragraph-1">
+                        Вам нужно открыть расчетный счет для юридического лица, но не знаете, в какой банк обратиться?
+                        Или у вас просто нет времени на то, чтобы выяснять условия разных банков и подавать в них
+                        заявки,
+                        чтобы открыть юридический счет?
+                    </div>
+                    <div class="offer__textbox-paragraph-2">
+                        С нашим сервисом вы можете легко открыть счет для ООО, не тратя ни минуты лишнего времени! Это
+                        первый агрегатор для тех, кто хочет открыть счет в банке для юридического лица – и он уже
+                        эффективно
+                        работает!
+                    </div>
+                    <div class="default-btn">
+                    <span class="default-btn-text">
+                        Открыть счет
+                    </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="choose">
+
+        <div class="choose_wrapper">
+            <div class="choose__title-1">
+                Выбор за вами
+            </div>
+            <div class="choose__title-2">
+                Теперь вы выбираете банки, а не они вас
+            </div>
+            <div class="choose-items">
+                <div class="choose-item">
+                    <div class="choose_img-wrap">
+                        <img src="media/profiles.png" alt="">
+                    </div>
+                    <div class="choose-item-text">
+                        Заполните удобную
+                        электронную форму и загрузите необходимые документы
+                    </div>
+                    <div class="num_wrapper">
+                        <div class="choose-num">
+                            1
+                        </div>
+                    </div>
+                </div>
+                <div class="choose-item">
+                    <div class="choose_img-wrap">
+                        <img src="media/profiles.png" alt="">
+                    </div>
+                    <div class="choose-item-text">
+                        Заполните удобную
+                        электронную форму и загрузите необходимые документы
+                    </div>
+                    <div class="num_wrapper">
+                        <div class="choose-num">
+                            2
+                        </div>
+                    </div>
+                </div>
+                <div class="choose-item">
+                    <div class="choose_img-wrap">
+                        <img src="media/profiles.png" alt="">
+                    </div>
+                    <div class="choose-item-text">
+                        Заполните удобную
+                        электронную форму и загрузите необходимые документы
+                    </div>
+                    <div class="num_wrapper">
+                        <div class="choose-num">
+                            3
+                        </div>
+                    </div>
+                </div>
+                <div class="choose-item">
+                    <div class="choose_img-wrap">
+                        <img src="media/profiles.png" alt="">
+                    </div>
+                    <div class="choose-item-text">
+                        Заполните удобную
+                        электронную форму и загрузите необходимые документы
+                    </div>
+                    <div class="num_wrapper">
+                        <div class="choose-num">
+                            4
+                        </div>
+                    </div>
+                </div>
+                <div class="choose-item">
+                    <div class="choose_img-wrap">
+                        <img src="media/profiles.png" alt="">
+                    </div>
+                    <div class="choose-item-text">
+                        Заполните удобную
+                        электронную форму и загрузите необходимые документы
+                    </div>
+                    <div class="num_wrapper">
+                        <div class="choose-num">
+                            5
+                        </div>
+                    </div>
+                </div>
+                <div class="choose-item">
+                    <div class="choose_img-wrap">
+                        <img src="media/profiles.png" alt="">
+                    </div>
+                    <div class="choose-item-text">
+                        Заполните удобную
+                        электронную форму и загрузите необходимые документы
+                    </div>
+                    <div class="num_wrapper">
+                        <div class="choose-num">
+                            6
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="fast-and-free">
+        <div class="fast-and-free__bgimage">
+
+        </div>
+        <div class="container">
+            <div class="fast-and-free__wrapper">
+                <div class="fast-and-free__textbox">
+                    <div class="fast-and-free__title">
+                        Быстро
+
+                    </div>
+                    <div class="fast-and-free__title">
+
+                        и бесплатно!
+                    </div>
+                    <div class="fast-and-free__text">
+                        Срочное открытие счета для юридических лиц – быстро и бесплатно! Наш агрегатор поможет вам
+                        одновременно отправить заявки в разные банки и получить ответы, не выходя из рабочего кабинета
+                        или дома. Вам больше не нужно лично посещать каждый банк и подавать документы на открытие
+                        расчетного счета. И главное – за это не придется платить!
+                    </div>
+                    <div class="fast-and-free__text second_text">
+                        Это лучшая возможность быстро открыть счет для ООО, в чем бы ни заключалась его деятельность! Вы
+                        не тратите свое время на обращения в банки – все происходит без вашего личного участия, пока вы
+                        занимаетесь своим бизнесом. Все, что вам нужно – это заполнить электронную форму агрегатора и
+                        загрузить в нее документы – а банки сами будут обращаться к вам с предложениями открыть счет для
+                        юридического лица.
+                    </div>
+                    <div class="default-btn">
+                    <span class="default-btn-text">
+                        Заполнить заявку
+                    </span>
+                    </div>
+                </div>
+                <div class="fast-and-free__image">
+                    <img src="media/fastandfree1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="our_news">
+        <div class="container">
+            <div class="our_news__title">
+                наши Новости
+            </div>
+            <div class="our_news_content">
+                <div class="our_news_first-box">
+                    <div class="big_news-wrapper">
+                        <div class="big_news-image">
+                            <div class="big_news_image-wrapper">
+                                <img src="media/newslogo.png" alt="">
+                                <span class="big_news-image-text">
+                        Рабочие будни 2019
+                    </span>
+                            </div>
+                        </div>
+                        <div class="calendar_line">
+                    <span>
+                        27.12.2019
+                    </span>
+                        </div>
+                        <div class="big_news_textbox">
+                            <div class="big_news_textbox-title">
+
+                                Планы по подключениям банков на 2019 год
+
+                            </div>
+                            <div class="big_news_textbox-text">
+                                Срочное открытие счета для юридических лиц – быстро и бесплатно! Наш агрегатор поможет
+                                вам одновременно отправить заявки в разные банки и получить ответы, не выходя из
+                                рабочего кабинета или дома.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="our_news_second-box">
+                    <div class="our_news_second-box-items">
+                        <div class="our_news_item">
+                            <div class="our_news_item-title">
+                                Итоги работы
+                                агрегатора за 2018 год
+                            </div>
+                            <div class="our_news_item-text">
+                                Срочное открытие счета для юридических лиц – быстро и бесплатно! Наш агрегатор поможет
+                                вам одновременно отправить
+                            </div>
+                            <div class="our_news_item-calendar">
+                                27.12.2019
+                            </div>
+                        </div>
+                        <div class="our_news_item">
+                            <div class="our_news_item-title">
+                                Топ-20 банков
+                                россии по версии
+                                кредитного союза
+                            </div>
+                            <div class="our_news_item-text">
+                                Срочное открытие счета для юридических лиц – быстро и бесплатно! Наш агрегатор поможет
+                            </div>
+                            <div class="our_news_item-calendar">
+                                27.12.2019
+                            </div>
+                        </div>
+                        <div class="our_news_item">
+                            <div class="our_news_item-title">
+                                представляем вашему
+                                вниманию новый
+                                “Ташпиков банк”
+                            </div>
+                            <div class="our_news_item-text">
+                                Срочное открытие счета для юридических лиц – быстро и бесплатно! Наш агрегатор поможет
+                            </div>
+                            <div class="our_news_item-calendar">
+                                27.12.2019
+                            </div>
+                        </div>
+                        <div class="our_news_more-news">
+                            <div class="more_news-content">
+                                <img src="media/newspaper.png" alt="">
+                                <span class="more_news-text">Все новости</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="slider">
+        <div class="container">
+            <div class="slider__top-content">
+                <div class="slider-titles">
+                <div class="slider__title">
+                Только лучшие банки
+            </div>
+            <div class="slider__title-2">
+                станут вашими партнерами
+            </div>
+                </div>
+                <div class="arrows">
+                    <div class="left-arrow">
+
+                    </div>
+                    <div class="right-arrow">
+
+                    </div>
+                </div>
+            </div>
+            <div class="slider-content">
+                <div class="slider-content-row">
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                </div>
+                <div class="slider-content-row">
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                    <div class="slider-content-row-item">
+                        <img src="media/minbanklogo.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+
+        <img src="media/footersup.png" alt="">
+        <img src="media/footlogo.png" alt="">
+        <div class="menu">
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#"> О Проекте</a></li>
+                <li><a href="#">Рейтинг банков</a></li>
+                <li><a href="#">Как это работает</a></li>
+                <li><a href="#">Подобрать банк</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <div class="icon"></div>
+            <div class="icon"></div>
+            <div class="icon"></div>
+        </div>
+    </footer>
+
+
+</main>
+
+<script src="script/main.js"></script>
+</body>
+</html>
